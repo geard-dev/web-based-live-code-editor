@@ -15,10 +15,8 @@ function setupEditor()
   editor.setValue(`<!DOCTYPE html>
 <html>
   <head>
-    
   </head>
   <body>
-    
   </body>
 </html>`,1); //1 = moves cursor to end
 
