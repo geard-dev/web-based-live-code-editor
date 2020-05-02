@@ -14,12 +14,12 @@ function setupEditor()
   editor.getSession().setMode("ace/mode/html");
   editor.setValue(`<!DOCTYPE html>
 <html>
-<head>
-</head>
-
-<body>
-</body>
-
+  <head>
+    
+  </head>
+  <body>
+    
+  </body>
 </html>`,1); //1 = moves cursor to end
 
   editor.getSession().on('change', function() {
