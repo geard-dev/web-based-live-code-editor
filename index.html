@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Web Based HTML Editor
+        </title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/editor-style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.11/ace.js"></script>
+    </head>
+    <body onload="ready()">
+        <header class="header">
+            <p>
+                Web Based Live HTML Editor by <a href="https://github.com/geard-dev/">geard-dev</a>
+            </p>
+            <button href="https://github.com/geard-dev" class="button">View Source Code on GitHub</button> 
+        </header>
+        <div id="container">
+            <div id="editor">
+            </div>
+        <iframe id="iframe" frameBorder="0"></iframe>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
