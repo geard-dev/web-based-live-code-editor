@@ -2,7 +2,7 @@
 
 ## Access
 
-You can access the Live Editor at https://geard-dev.github.io/web-based-html-live-editor/
+You can access the Live Editor at https://geard-dev.github.io/web-based-live-code-editor/
 
 ## Self Hosting
 
