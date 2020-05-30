@@ -2,7 +2,7 @@
 
 ## About
 
-This is a live online code editor. It uses [Ace](ace.c9.io), which is actually what [Cloud9](https://aws.amazon.com/cloud9/) uses in the backend for the actual editor. You can [self host](https://github.com/geard-dev/web-based-live-code-editor#self-hosting) it or access it through my [Github Pages](https://geard-dev.github.io/web-based-live-code-editor/). Live means that as soon as you write the code, the screen on the side shows what it looks like, no saving or reloading needed.
+This is a live online code editor. It uses [Ace](https://ace.c9.io/), which is actually what [Cloud9](https://aws.amazon.com/cloud9/) uses in the backend for the actual editor. You can [self host](https://github.com/geard-dev/web-based-live-code-editor#self-hosting) it or access it through my [Github Pages](https://geard-dev.github.io/web-based-live-code-editor/). Live means that as soon as you write the code, the screen on the side shows what it looks like, no saving or reloading needed.
 
 ## Access
 
