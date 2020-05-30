@@ -9,9 +9,9 @@ function update()
 
 function setupEditor()
 {
-  window.editor = ace.edit("editor");
+  var editor = ace.edit("editor");
   editor.setTheme("ace/theme/monokai");
-  editor.getSession().setMode("ace/mode/javascript");
+  editor.session.setMode("ace/mode/javascript");
   editor.setValue(`console.log("Hello World")`,1); //1 = moves cursor to end
 
   editor.getSession().on('change', function() {
